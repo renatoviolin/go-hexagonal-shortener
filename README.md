@@ -1,6 +1,6 @@
-# Hexagonal Architecture in GoLang
+# Hexagonal Architecture in Golang
 
-This application implements a GoLang backend using Hexagonal Architecture which aims to decouple the components of the domain/application from the frameworks like http server, storage and others.
+This application implements a Golang backend using Hexagonal Architecture which aims to decouple the components of the domain/application from the frameworks like http server, storage and others.
 
 To demonstrate this, this application implements a simple URL Shortener which makes use of different adapters. The application can be executed from command-line, or as a service (HTTP and gRPC).
 
