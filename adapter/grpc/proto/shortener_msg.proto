@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package pb;
+
+option go_package = "./pb";
+
+message Code {
+    string code = 1;
+}
+
+message Url {
+    string url = 1;
+}

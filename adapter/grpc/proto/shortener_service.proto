@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pb;
+
+import "shortener_msg.proto";
+
+option go_package = "./pb";
+
+service ShortenerService {
+    rpc GetCode(Url) returns (Code) {}
+    rpc GetUrl(Code) returns (Url) {}
+}
